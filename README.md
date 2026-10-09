@@ -34,34 +34,49 @@ Based on the evidence tags provided in the lab, I analyzed each component to det
 | **Laptop GPU** | Creates visuals using smaller, lower-powered hardware. | Integrated into a laptop motherboard. | ❌ Rejected |
 | **Laptop Charger** | Converts AC power to DC for a laptop. | Outside the computer. | ❌ Rejected |
 
-![Parts & Function](images/02-parts-function.png)
-*Analysis of the hardware components and their functions.*
+<p align="center">
+  <img src="images/02-parts-function.png" alt="Parts and Function" width="600">
+  <br>
+  <em>Figure 1: Analysis of the hardware components and their functions.</em>
+</p>
 
 ## 🛠️ Execution & Methodology
 
 ### 1. Machine Assembly
 After identifying the correct components, I assembled the workstation. The system confirmed all 7 parts were placed correctly.
 
-![Assembled PC](images/03-assembled-pc.png)
-*The workstation fully assembled with 7/7 parts placed.*
+<p align="center">
+  <img src="images/03-assembled-pc.png" alt="Assembled PC" width="600">
+  <br>
+  <em>Figure 2: The workstation fully assembled with 7/7 parts placed.</em>
+</p>
 
 ### 2. Cold Boot Recovery
 With the machine assembled, I initiated the boot sequence to access the Forensic Recovery System.
 
-![Boot Screen](images/04-boot-screen.png)
-*The Forensic Recovery System awaiting boot.*
+<p align="center">
+  <img src="images/04-boot-screen.png" alt="Boot Screen" width="600">
+  <br>
+  <em>Figure 3: The Forensic Recovery System awaiting boot.</em>
+</p>
 
 ### 3. Evidence Extraction
 The cold boot was successful. I retrieved the evidence file from the volatile memory (RAM).
 
-![Forensic Report](images/05-forensic-report.png)
-*The recovered evidence file containing the flag.*
+<p align="center">
+  <img src="images/05-forensic-report.png" alt="Forensic Report" width="600">
+  <br>
+  <em>Figure 4: The recovered evidence file containing the flag.</em>
+</p>
 
 ### 4. Final Report
 Finally, I submitted the recovered evidence to the senior analyst to close the case.
 
-![Email Submission](images/06-email-submission.png)
-*Email sent to the senior analyst.*
+<p align="center">
+  <img src="images/06-email-submission.png" alt="Email Submission" width="600">
+  <br>
+  <em>Figure 5: Email sent to the senior analyst.</em>
+</p>
 
 ## 🚩 Results
 - **Recovered Flag:** `THM{c0ld_b00t_c0mpl3t3}`
