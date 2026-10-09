@@ -10,12 +10,24 @@
 ## 📖 Executive Summary
 This repository documents my walkthrough of the **Cold Boot** lab on TryHackMe. The scenario simulates a cybercrime scene where a workstation was disassembled by a suspect to hinder forensic analysis. The objective was to analyze the evidence, rebuild the machine with the correct components, perform a cold boot, and recover a hidden evidence file.
 
+<p align="center">
+  <img src="images/01-intro-screen.png" alt="Intro Screen" width="600">
+  <br>
+  <em>Figure 1: Lab introduction screen.</em>
+</p>
+
 ## 🎯 Objectives
 - Analyze the case file and evidence tags.
 - Identify the 7 legitimate hardware components among the impostors.
 - Assemble the workstation.
 - Perform a cold boot to recover volatile evidence from RAM.
 - Submit the recovered flag to the senior analyst.
+
+<p align="center">
+  <img src="images/02-case-file.png" alt="Case File" width="600">
+  <br>
+  <em>Figure 2: The case file detailing the breach scenario.</em>
+</p>
 
 ## 🧩 Hardware Analysis (Parts & Function)
 
@@ -35,9 +47,15 @@ Based on the evidence tags provided in the lab, I analyzed each component to det
 | **Laptop Charger** | Converts AC power to DC for a laptop. | Outside the computer. | ❌ Rejected |
 
 <p align="center">
-  <img src="images/02-parts-function.png" alt="Parts and Function" width="600">
+  <img src="images/03-parts-function-1.png" alt="Parts and Function 1" width="600">
   <br>
-  <em>Figure 1: Analysis of the hardware components and their functions.</em>
+  <em>Figure 3: Analysis of hardware components (Processor, Memory, Power, Connectivity).</em>
+</p>
+
+<p align="center">
+  <img src="images/04-parts-function-2.png" alt="Parts and Function 2" width="600">
+  <br>
+  <em>Figure 4: Analysis of hardware components (External Connections, Storage, Visual Output).</em>
 </p>
 
 ## 🛠️ Execution & Methodology
@@ -46,36 +64,36 @@ Based on the evidence tags provided in the lab, I analyzed each component to det
 After identifying the correct components, I assembled the workstation. The system confirmed all 7 parts were placed correctly.
 
 <p align="center">
-  <img src="images/03-assembled-pc.png" alt="Assembled PC" width="600">
+  <img src="images/05-assembled-pc.png" alt="Assembled PC" width="600">
   <br>
-  <em>Figure 2: The workstation fully assembled with 7/7 parts placed.</em>
+  <em>Figure 5: The workstation fully assembled with 7/7 parts placed.</em>
 </p>
 
 ### 2. Cold Boot Recovery
 With the machine assembled, I initiated the boot sequence to access the Forensic Recovery System.
 
 <p align="center">
-  <img src="images/04-boot-screen.png" alt="Boot Screen" width="600">
+  <img src="images/06-boot-screen.png" alt="Boot Screen" width="600">
   <br>
-  <em>Figure 3: The Forensic Recovery System awaiting boot.</em>
+  <em>Figure 6: The Forensic Recovery System awaiting boot.</em>
 </p>
 
 ### 3. Evidence Extraction
 The cold boot was successful. I retrieved the evidence file from the volatile memory (RAM).
 
 <p align="center">
-  <img src="images/05-forensic-report.png" alt="Forensic Report" width="600">
+  <img src="images/07-forensic-report.png" alt="Forensic Report" width="600">
   <br>
-  <em>Figure 4: The recovered evidence file containing the flag.</em>
+  <em>Figure 7: The recovered evidence file containing the flag.</em>
 </p>
 
 ### 4. Final Report
 Finally, I submitted the recovered evidence to the senior analyst to close the case.
 
 <p align="center">
-  <img src="images/06-email-submission.png" alt="Email Submission" width="600">
+  <img src="images/08-email-submission.png" alt="Email Submission" width="600">
   <br>
-  <em>Figure 5: Email sent to the senior analyst.</em>
+  <em>Figure 8: Email sent to the senior analyst.</em>
 </p>
 
 ## 🚩 Results
